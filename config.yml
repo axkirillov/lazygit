@@ -1,0 +1,14 @@
+gui:
+  expandFocusedSidePanel: true
+
+git:
+  paging:
+    colorArg: always
+    pager: delta --dark --paging=never --syntax-theme=gruvbox-dark
+    merging:
+      # extra args passed to `git merge`, e.g. --no-ff
+      args: '--no-commit'
+keybinding:
+  universal:
+    confirm: '<c-j>'
+    submitEditorText: '<c-j>'
